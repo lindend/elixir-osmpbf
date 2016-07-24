@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="test">
+ <bounds minlat="54.0889580" minlon="12.2487570" maxlat="54.0913900" maxlon="12.2524800"/>
+ <node id="1" lat="50.0005" lon="50.0006" user="test" uid="1" visible="true" version="1" changeset="676636" timestamp="2008-09-21T21:37:45Z"/>
+ <node id="2" version="1" changeset="12370172" lat="50.0007" lon="50.0008" user="test" uid="1" visible="true" timestamp="2012-07-20T09:43:19Z">
+  <tag k="name" v="Test node"/>
+  <tag k="other" v="tag"/>
+ </node>
+ <node id="3" lat="51.000" lon="51.001" user="test" uid="1" visible="true" version="1" changeset="676636" timestamp="2008-09-21T21:37:45Z"/>
+
+  <way id="21" user="test" uid="1" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+  <nd ref="1"/>
+  <nd ref="2"/>
+  <nd ref="1"/>
+  <tag k="name" v="this is way"/>
+  <tag k="something" v="else"/>
+  </way>
+
+  <way id="22" user="test" uid="1" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+    <nd ref="1"/>
+  </way>
+
+</osm>

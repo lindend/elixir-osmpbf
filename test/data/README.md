@@ -1,0 +1,1 @@
+Data in this folder generated from source files in data_source by running osmconvert: http://wiki.openstreetmap.org/wiki/Osmconvert
