@@ -1,4 +1,6 @@
 defmodule OsmParse do
+    alias OsmParse.{OsmNode, OsmWay, OsmRelation, OsmMember}
+    
     def parse(path) do
         file = File.stream!(path, [], 2048)
         stream_blobs(file)

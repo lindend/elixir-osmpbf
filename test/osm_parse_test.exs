@@ -2,6 +2,8 @@ defmodule OsmParseTest do
   use ExUnit.Case
   doctest OsmParse
 
+  alias OsmParse.{OsmNode, OsmWay, OsmRelation, OsmMember}
+
   setup %{file: file} do
     {:ok, data_path: Path.join([Path.dirname(file), "data"])}
   end
